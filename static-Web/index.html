@@ -7,19 +7,38 @@
     <title>Dream Team</title>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="logo">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="background-video.mp4" type="video/mp4">
+    </video>
+    <div id="dots"></div>
+    <action id="header">
+        <img src="logo.png" alt="logo" id="logo-nav">
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Dream Team</li>
-                <li>Download</li>
-                <li>About us</li>
-                <li>Contact</li>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dream-team">Dream Team</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </action>
+    <action class="container">
+        <section id="home">
+            <h1 id="home-text"> <b>Dream Team</b> </h1>
+            <p id="home-explain">Create and manage your own league with friends</p>
+        </section>
+        <section id="dream-team">
+            <div class="card">
+                <p class="white-text">Hola</p>
+            </div>
+        </section>
+    </action>
 </body>
 </html>
