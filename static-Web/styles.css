@@ -69,6 +69,7 @@ li , a {
 }
 .back-video{
     position: absolute;
+    object-fit: center;
     right: 0;
     bottom: 0;
     z-index: -2;
